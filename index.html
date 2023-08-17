@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cifrado.css">
+    <title>Documento</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="ci">Cifrar</h1>
+        <input id="inputOriginalText" placeholder="Mensaje" type="text">
+        <button onclick="cifrarTexto()">Cifrar</button>
+        <input id="resultadoCifrado" disabled placeholder="Mensaje cifrado" type="text">
+    </div>
+
+    <div class="container">
+        <input id="contraseña" placeholder="Contraseña" type="password">
+    </div>
+
+    <div class="container">
+        <h1 id="des">Descifrar</h1>
+        <input id="textoCifrado" placeholder="Cifrado" type="text">
+        <button onclick="descifrarTexto()">Descifrar</button>
+        <input id="resultadoDescifrado" disabled placeholder="Descifrado" type="text">
+    </div>
+
+    <script src="cifrado.js"></script>
+</body>
+</html>

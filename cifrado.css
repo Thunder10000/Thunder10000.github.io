@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-color: #a1faee;
+    /* Agregar fondo de GIF */
+    background-image: url('SU.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    margin: 10px 0;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 300px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #0011fd;
+}
+
+.container input[type="password"] {
+    width: 150px;
+}
+
+.container button {
+    padding: 8px 20px;
+    background-color: #830000;
+    color: rgb(220, 220, 220);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.container button:hover {
+    background-color: #0104a7;
+    transform: translate(0, -3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.container input[type="text"][disabled],
+.container input[type="password"][disabled] {
+    background-color: #f0f0f0;
+}
+
+#resultadoCifrado{
+    width: 300px;
+    margin-left: -75px;
+    border: 1px solid #ff0000; 
+}
+
+#resultadoDescifrado {
+    width: 300px;
+    margin-left: -90px;
+    border: 1px solid #df0909; 
+}
+#ci {
+    margin-left: -80px;
+    color: #00158b; 
+    border: #0011fd solid 3px;
+    width: 100px;
+    margin-left: 220px;
+    background-color: #b7c6f7;
+}
+
+#des {
+    margin-left: -85px;
+    color: #df0909; 
+    border: #fd0000 solid 3px;
+    width: 150px;
+    margin-left: 180px;
+    background-color: #b7c6f7;
+}
